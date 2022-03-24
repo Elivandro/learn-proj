@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+iframe{
+    border: 0px;
+}
+.paragrafo-conteudo{
+    margin: 0px 40px;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.header{
+    width: 100%;
+    margin: 0px;
+    padding: 30px 0px 45px;
+    background-color: #afddfb;
+}
+.header .tamanho-maximo-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.banner{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.container{
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+.nav-links a{
+    width: 100%;
+    margin: 15px 10px 25px;
+    color: #5f2a8e;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+.nav-links a:hover{
+    color: #2c35ef;
+}
+.logo-img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.content-img{
+    width: 420px;
+    height: 290px;
+    margin-bottom: 10px;
+}
+.servicos{
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #1d80c1;
+}
+.conteudo-servicos{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+}
+.titulo-site{
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+.subtitulo-site-azul{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #1d80c1;
+}
+.servicos-title{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.corretor{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+.corretores-title{
+    margin: 60px 0px 35px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #1d80c1;
+}
+.span-conteudo{
+    color: #1d80c1;
+    font-weight: 600;
+}
+.span-servicos{
+    color: #eff757;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.paragrafo-servicos{
+    margin: 20px 80px;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 35px;
+    text-align: center;
+}
+.servicos-lista {
+    width: 135px;
+    line-height: 35px;
+    margin: 40px auto 40px;
+    color: #fff;
+}
+.contato{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #1d80c1;
+}
+.contato-titulo{
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    padding: 50px 0px 0px;
+}
+.contato-local{
+    width: 100%;
+    margin: 0px auto;
+}
+.paragrafo-contato{
+    width: 880px;
+    margin: 20px auto 10px;
+    padding: 15px;
+    color: #fff;
+    background-color: #000000bb;
+}
+.span-contato{
+    color: #eff757;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.contato-lista {
+    width: 190px;
+    list-style-type: none;;
+    line-height: 35px;
+    margin: 0px auto;
+    padding: 40px;
+    color: #fff;
+}
+.lista {
+    margin: 5px 2px;
+    border-radius: 5px;
+    background-color: #ffffffd3;
+}
+.tamanho-maximo-container{
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 0px;
+}
