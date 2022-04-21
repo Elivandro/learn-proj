@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: .9rem;
+    font-family: Verdana, sans-serif;
+}
+body{
+    background-color: #80808029;
+}
+span{
+    color:#000;
+    font-weight: bold;
+}
+.topo-site{
+    background-color: #fff;
+    width: 100%;
+}
+.topo-site .tamanho-maximo-container{
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+.topo-site h1{
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: #5d15d1;
+}
+.formulario-container h3{
+    font-size: 1.4rem;
+    margin-bottom: 24px;
+}
+.formulario-container button{
+    padding: 5px;
+    color: #fff;
+    background-color: #5d15d1;
+    border: 2px solid #000;
+}
+.logo-img{
+    margin: 10px;
+    width: 25px;
+    height: 25px;
+}
+.section-form{
+    padding: 40px 0px;
+    background-image: url("../images/bahia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+.formulario-topo{
+    background-color: #5d15d1;
+    color: #fff;
+    padding: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+.formulario-container{
+    width: 100%;
+    padding: 30px 25px 20px;
+    background-color: #fff;
+}
+.formulario-container button{
+    margin-top: 12px;
+}
+.aviao-icon{
+    width: 25px;
+    margin-right: 10px;
+    transform: rotate(300deg);
+}
+.tamanho-maximo-container{
+    max-width: 1024px;
+    min-width: 320px;
+    margin: 0px auto;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+}
+.formulario div{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.formulario div:last-child{
+    margin-right: 0px;
+}
+.descricao-entrada .formulario div label{
+    margin-left: 8px;
+}
+.formulario-entrada{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input[type="date"]{
+    width: 100%;
+}
+.formulario-entrada label, input{
+    margin: 0px 0px 10px;
+}
+.formulario-entrada input, select{
+    padding: 5px 0px;
+}
+.descricao-entrada-form{
+    margin: 10px 0px;
+}
+.descricao-entrada-form p{
+    margin-bottom: 10px;
+}
+.ofertas-site-container, .destaque-natureza-container{
+    margin: 32px auto 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.ofertas-container{
+    margin: 32px auto 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.ofertas-container h3, .destaque-natureza-container h3{
+    font-size: 1.4rem;
+    margin: 0px 0px 10px 0px;
+}
+.ofertas-container h4, .destaque-natureza-container h4{
+    font-size: 1rem;
+    font-weight: normal;
+    color:#808080;
+}
+.ofertas-site-container{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ofertas-site-destaque{
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.ofertas-site-images{
+    width: calc(50% - 10px);
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.ofertas-site-images figure{
+    position: relative;
+    margin: 0px 10px;
+    width: calc(50% - 10px);
+    height: calc(50% - 10px);
+}
+.ofertas-site-container img, .ofertas-site-images img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.ofertas-site-container figcaption, .ofertas-site-images figcaption{
+    position: absolute;
+    width: 100%;
+    padding: 5px 10px;
+    left: 0px;
+    bottom: 0px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #00000080;
+}
+.destaque-natureza-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.natureza-imagens{
+    margin: 32px 0px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.natureza-imagem  {
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.natureza-imagem img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.natureza-imagem div{
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+.natureza-imagem h3{
+    font-size: 1rem;
+}
+.natureza-imagem p{
+    color: #808080;
+    font-size: .9rem;
+    margin: 15px 0px 0px 0px;
+}
+.rodape-site{
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #5d15d1;
+}
+.rodape-site-contato{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rodape-site-contato h3{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+.rodape-site-contato div{
+    margin-bottom: 10px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+@media (min-width: 769px) {
+    .tamanho-maximo-container{
+        padding: 0px 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 768px){
+    .tamanho-maximo-container{
+        padding: 0px 20px;
+    }
+    .formulario-container button{
+        width: 100%;
+        text-align: center;
+    }
+    .formulario{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .formulario div{
+        margin-right: 0px;
+    }
+    .ofertas-site-container {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+    .ofertas-site-container img{
+        height: 225px;
+    }
+    .ofertas-site-destaque {
+        position: relative;
+        width: 100%;
+        height: calc(50% - 10px);
+    }
+    .ofertas-site-images {
+        width: 100%;
+        height: calc(100% - 10px);
+        display: flex;
+        flex-direction: row;
+    }
+    .ofertas-site-images figure {
+        position: relative;
+        margin: 20px 0px 0px;
+        width: 100%;
+        height: calc(50% - 10px);
+    }
+    .natureza-imagens{
+        display: block;
+    }
+    .natureza-imagem {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 450px){
+    .rodape-site{
+        margin-top: 10px;
+        padding-bottom: 5px;
+    }
+    .rodape-site-contato h3{
+        font-size: 1rem;
+    }
+    .rodape-site-contato p{
+        font-size: .6rem;
+    }
+    .icon{
+        width: 15px;
+        height: 15px;
+        margin-right: 5px
+    }
+}
