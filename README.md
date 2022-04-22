@@ -1,5 +1,4 @@
-# Portfólio
-Projetos
+# Projetos
 
 <div>
   <a target="_blank" href="https://elivandro.github.io/learn-proj/CMLife/"><img height="30" width="150" src="https://img.shields.io/badge/CLÍNICA&nbsp;CMLIFE-363636?style=for-the-badge&logoColor=white" alt="Views"/></a>
@@ -11,4 +10,4 @@ Projetos
 
 #
 
-#### Códigos livres, sites e scripts para mostrar meu progresso como desenvolvedor.
+##### Códigos livres, sites e scripts para mostrar meu progresso como desenvolvedor.
