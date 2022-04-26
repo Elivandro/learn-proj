@@ -1,4 +1,4 @@
-//calcula a cilindrada do motor;
+//função para cilindrada do motor;
 function cilindrada(){
     //declara as variavéis e captura os campos;
     let curso = document.getElementById("vCurso");
@@ -21,6 +21,7 @@ function cilindrada(){
     if(curso <= 0 || diametro <= 0){
         alert("Preencha:\nCilindrada e Curso do Virabrequim.\n\nPara saber a cilindrada em cm³.");
     }else{
+        //imprime o resultado;
         result.textContent = cc.toFixed(2)+"cm³";
     }
 }
@@ -28,7 +29,7 @@ function cilindrada(){
     let calc = document.getElementById("ccSubmit");
         calc.addEventListener("click",cilindrada);
 
-//calcula a capacidade em mL do cilindro;
+//função capacidade em mL do cilindro;
 function mL(){
     //declara as variavéis e carrega os campos;
     let ccmL = document.getElementById("ccmL");
@@ -53,7 +54,7 @@ function mL(){
         if(ccmL <= 0 || TxmL <= 0){
             alert("Preencha: \nCilindrada e Taxa.\n\nPara descobrir a capacidade em ml do cilindro.");
         }else{
-
+            //imprime o resultado;
             result2.textContent = resultado.toFixed(2)+"ml";
         }
     }
@@ -62,7 +63,7 @@ function mL(){
     let mLCalc = document.getElementById("mLSubmit");
         mLCalc.addEventListener("click",mL);
 
-//calcula a taxa do cilindro;
+//fução taxa do cilindro;
 function taxa(){
     //declara as variavéis e carrega os campos;
     let ccTaxa = parseFloat(document.getElementById("ccTaxa").value);
@@ -73,7 +74,7 @@ function taxa(){
     Tx = (ccTaxa + TmL) / TmL;
 
     if( Tx > 0){
-            //executa a formula;
+            //imprime o resultado;
             result3.textContent = Tx.toFixed(2)+":1 Taxa";
     }else{
         alert("Preencha:\nCilindrada e Capacidade mL.\n\nPara saber qual a proporção da taxa de compressão.");
