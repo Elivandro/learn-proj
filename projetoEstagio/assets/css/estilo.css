@@ -1,0 +1,476 @@
+*{
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: Raleway;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1eeee;
+}
+header, main, footer{
+    width: 100%;
+}
+span{
+    font-weight: bold;
+}
+.barra-topo{
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #e4e4e4;
+}
+.barra-topo label{
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.barra-topo .tamanho-maximo-container{
+    width: 100%;
+    margin: 0px auto;
+}
+.banner-destaque{
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/london.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.banner-destaque-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area-banner{
+    width: 65%;
+    height: auto;
+    margin: 0px auto;
+    background-color: #fff;
+}
+.topo-icon{
+    display: inline;
+    margin: 15px;
+    color: #f44336;
+}
+.topo-icon-search{
+    display: inline;
+    margin: 15px;
+    color: #787878;
+}
+.fa-plane, .fa-bed, .fa-car{
+    color: #fff;
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #000;
+}
+.fa-plane{
+    font-size: 20px;
+    background-color: #f44336;
+}
+.elementos-banner{
+    width: 100%;
+    display: flex;
+}
+.elementos-banner input{
+    padding: 5px 0px;
+}
+.area-banner .banner-destaque-menu label{
+    margin-left: 10px;
+    font-weight: 600;
+}
+.elementos-banner-input{
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.elementos-banner-input:last-child{
+    margin: 0px
+}
+.conteudo-banner{
+    width: 100%;
+    margin: 20px 20px 0;
+}
+.banner-container{
+    margin: 0px 10px 40px;
+}
+.banner-container h2{
+    margin: 20px 0px 0px;
+}
+.search-button{
+    padding: 10px 20px;
+    border: 0px;
+    color: #fff;
+    background-color: #252323;
+    text-decoration: none;
+}
+.ofertas-site-container, .natureza-site-container{
+    margin: 32px auto 0px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.ofertas-site-container h3, .natureza-site-container h3{
+    font-size: 1.4rem;
+    margin: 0px 0px 10px 0px;
+}
+.ofertas-site-container h4, .natureza-site-container h4{
+    font-size: 1.1rem;
+    font-weight: normal;
+    color:#808080;
+}
+.ofertas-site-destaque{
+    width: 100%;
+    height: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+.ofertas-site-destaque img, .ofertas-site-images img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.ofertas-site-destaque figcaption, .ofertas-site-images figcaption{
+    position: absolute;
+    width: 100%;
+    padding: 5px 10px;
+    left: 0px;
+    bottom: 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00000080;
+}
+.ofertas-image-destaque{
+    margin: 0px;
+    position: relative;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.ofertas-site-images{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.ofertas-site-images figure{
+    position: relative;
+    margin: 0px 10px;
+    width: calc(50% - 15px);
+    height: calc(50% - 10px);
+}
+.natureza-destaque{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.natureza-imagem  {
+    margin: 0px;
+    width: calc(50% - 10px);
+    height: 100%;
+}
+.natureza-imagem img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.natureza-imagem div{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+.natureza-imagem h3{
+    font-size: 1rem;
+}
+.natureza-imagem p{
+    color: #808080;
+    font-size: 1rem;
+    margin: 15px 0px 0px 0px;
+}
+.natureza-imagem a{
+    color: #808080;
+    font-weight: bold;
+    text-decoration: none;
+}
+.natureza-imagem a:hover{
+    color: #9e9d9d;
+    text-decoration: underline;
+}
+.secao-newsletter{
+    width: 100%;
+    margin: 0px auto;
+    padding: 10px;
+    color: #fff;
+    background-color: #00000099;
+}
+.secao-newsletter div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.secao-newsletter input{
+    padding: 8px;
+}
+.secao-newsletter button{
+    width: 80px;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border: 1px solid #00000099;
+    color: #ffffff;
+    background-color: #d44f4fe2;
+}
+.secao-contato{
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.secao-contato p{
+    margin-top: 0px;
+}
+.secao-contato input {
+    margin-top: 10px;
+    padding: 5px;
+}
+.secao-contato textarea{
+    resize: none;
+    margin-top: 10px;
+}
+.secao-contato button{
+    width: 140px;
+    margin-top: 10px;
+    border: 0px;
+    color: #ffffff;
+    padding: 10px 15px;
+    background-color: #252323;
+}
+.secao-contato i{
+    margin-bottom: 10px;
+}
+.secao-contato label{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.secao-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.secao-info-icon-label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+.secao-info-input{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.redes-social{
+    color: #808080;
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes-social h4{
+    font-size: 1.2rem;
+}
+.redes-social a{
+    color:#828282;
+    text-decoration: none;
+    font-weight: bold;
+}
+.redes-social a:hover{
+    color:#9e9d9d;
+    text-decoration: underline;
+}
+.tamanho-maximo-container{
+    max-width: 1366px;
+    min-width: 320px;
+}
+@media (min-width: 320px) and (max-width: 499px){
+
+    .area-banner{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .banner-container{
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px 20px;
+    }
+    .banner-container h2{
+        margin: 20px 0px 0px;
+        font-size: 1.5rem;
+    }
+    .banner-destaque{
+        width: 100%;
+        height: auto;
+        background: #fff;
+    }
+    .banner-destaque-menu{
+        width: 100%;
+    }
+    .elementos-banner{
+        flex-direction: column;
+    }
+    .elementos-banner-input {
+        margin: 0px;
+        padding: 0px;
+    }
+    .elementos-banner-input p{
+        margin: 20px 0px 0px;
+        padding: 0px;
+    }
+    .search-button {
+        margin: 20px 0px 40px;
+    }
+    .ofertas-site-destaque{
+        height: auto;
+        flex-direction: column;
+    }
+    .ofertas-image-destaque, .natureza-imagem  {
+        margin: 0px auto;
+        width: calc(100% - 20px);
+        height: auto;
+    }
+    .ofertas-site-images {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+    }
+    .ofertas-site-container h3, .natureza-site-container h3{
+        margin: 0px 10px;
+    }
+    .ofertas-site-container p, .natureza-site-container p{
+        margin: 20px 10px;
+    }
+    .ofertas-site-images figure {
+        position: relative;
+        margin: 10px 10px;
+        width: 100%;
+        height: auto;
+    }
+    .natureza-destaque {
+        flex-direction: column;
+    }
+    .secao-newsletter{
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+    .secao-contato{
+        padding: 10px;
+    }
+    .secao-info-input input{
+        width: 100%;
+    }
+    .secao-info-input textarea{
+        width: 100%;
+    }
+}
+@media (min-width: 501px) and (max-width: 767px){
+
+    .banner-container{
+        width: 100%;
+        margin: 0px auto;
+        padding: 0px 20px;
+    }
+    .banner-container h2{
+        margin: 20px 0px 0px;
+        font-size: 1.5rem;
+    }
+    .banner-destaque-menu{
+        width: 100%;
+    }
+    .elementos-banner{
+        flex-direction: column;
+    }
+    .elementos-banner-input {
+        margin: 0px;
+        padding: 0px;
+    }
+    .elementos-banner-input p{
+        margin: 20px 0px 0px;
+        padding: 0px;
+    }
+    .search-button {
+        margin: 20px 0px 40px;
+    }
+    .ofertas-site-destaque{
+        height: auto;
+        flex-direction: column;
+    }
+    .ofertas-image-destaque, .natureza-imagem  {
+        margin: 0px auto;
+        width: calc(100% - 20px);
+        height: auto;
+    }
+    .ofertas-site-images {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+    }
+    .ofertas-site-container h3, .natureza-site-container h3{
+        margin: 0px 10px;
+    }
+    .ofertas-site-container p, .natureza-site-container p{
+        margin: 20px 10px;
+    }
+    .ofertas-site-images figure {
+        position: relative;
+        margin: 10px 10px;
+        width: 100%;
+        height: auto;
+    }
+    .natureza-destaque {
+        flex-direction: column;
+    }
+    .secao-newsletter{
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+    }
+    .secao-contato{
+        padding: 10px;
+    }
+    .secao-info-input input{
+        width: 100%;
+    }
+    .secao-info-input textarea{
+        width: 100%;
+    }
+}
+@media (min-width: 768px){
+    .area-banner h2{
+        font-size: 1.5rem;
+    }
+    .elementos-banner p{
+        font-size: 1.3rem
+    }
+    .ofertas-site-container, .natureza-site-container{
+        width: calc(100% - 20px);
+    }
+    .secao-contato{
+        width: calc(100% - 20px);
+    }
+}
