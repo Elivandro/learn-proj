@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Roboto;
+}
+figure img{
+    width: 100%;
+    min-width: 320px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #122A57;
+}
+.header h1{
+    margin: 0px 20px;
+    font-size: 36px;
+    text-decoration: none;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+.header .tamanho-maximo-container{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    min-width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    margin: 0px 10px;
+    list-style: none;
+}
+.main{
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main h1{
+    margin-bottom: 10px;
+    font-size: 48px;
+    line-height: 75px;
+    color: #122A57;
+}
+.main p{
+    margin: 10px 0px;
+}
+.main .main-texto{
+    margin-left: 20px;
+    min-height: 200px;
+}
+.main-texto p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.main-texto a{
+    display: block;
+    width: 220px;
+    height: 52px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #122A57;
+}
+.quem-somos{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.quem-somos div{
+    width: 100%;
+    margin: 0px;
+}
+.quem-somos figure{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.quem-somos h2{
+    color: #122A57;
+    font-size: 36px;
+    margin-left: 10px;
+}
+.quem-somos h2::before{
+    content: "";
+    border-left: 7px solid;
+    border-color: #122A57;
+    margin-right: 5px;
+}
+.quem-somos p{
+    width: 100%;
+    height: auto;
+    margin: 10px 0px 20px;
+    padding: 0px;
+    line-height: 28px;
+}
+.quem-somos p:last-child{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.servicos{
+    margin: 0px;
+    padding: 20px 0px 40px;
+    width: 100%;
+    color: #fff;
+    background-color: #122A57;
+}
+.servicos h2{
+    font-size: 48px;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+.servicos-flex{
+    background-color: #122A57;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.servicos-flex img{
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+    object-fit: contain;
+}
+.servicos-flex div:nth-child(1){
+    margin: 20px 20px;
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicos-flex div:nth-child(2){
+    margin: 20px 20px;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicos-flex div:nth-child(3){
+    margin: 20px 20px;
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicos-flex p{
+    margin: 20px 0px;
+}
+.servicos-flex a{
+    display: block;
+    width: 225px;
+    height: 50px;
+    color: #122A57;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    background-color: #fff;
+    border-radius: 30px;
+}
+#planos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+#planos h2{
+    margin-left: 20px;
+    font-size: 46px;
+    color:#122A57
+}
+.planos-flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.planos-flex h3{
+    position: absolute;
+    width: 70%;
+    margin-top: 10px;
+    padding: 10px;
+    top: 0px;
+    text-align: center;
+    font-size: 36px;
+    border-bottom: 4px solid #122A57;
+}
+.planos-flex ul{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    padding: 40px;
+    list-style: none;
+}
+.planos-flex ul li:before{
+    display: inline-block;
+    content: "";
+    margin-right: 5px;
+    width: 8px;
+    height: 8px;
+    background-color: #122A57;
+}
+.planos-flex div ul:nth-child(3){
+    margin-bottom: 20px;
+}
+.planos-flex a{
+    display: block;
+    bottom: 0px;
+    color: #fff;
+    background-color: #122A57;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 50px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+}
+.planos-flex div{
+    position: relative;
+    margin-bottom: 40px;
+}
+.planos-flex div:nth-child(1){
+    margin: 150px 20px 40px;
+    width: 300px;
+    border: 7px solid #122A57;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.planos-flex div:nth-child(2){
+    margin: 75px 0px 40px;
+    width: 300px;
+    border: 7px solid #122A57;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.planos-flex div:nth-child(3){
+    margin: 0px 20px 40px;
+    width: 300px;
+    border: 7px solid #122A57;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background-color: #122A57;
+}
+.footer div p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .tamanho-maximo-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tamanho-maximo-container{
+    margin: auto;
+    max-width: 1024px;
+}
+@media (min-width: 320px) and (max-width: 720px){
+    .main{
+        justify-content: center;
+    }
+    .main figure img:first-child{
+        display: none;
+    }
+    .quem-somos div{
+        margin: 0px;
+    }
+    .quem-somos p{
+        width: calc(100% - 20px);
+        line-height: 35px;
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 0px;
+    }
+    .quem-somos h2{
+        margin: 0px 10px;
+    }
+    .quem-somos figure{
+        display: none;
+    }
+    .header .tamanho-maximo-container{
+        justify-content: center;
+    }
+    .servicos h2{
+        margin: 20px 40px 0px;
+        margin-bottom: 20px;
+    }
+    .servicos-flex{
+        justify-content: center;
+    }
+    .planos-flex div:nth-child(1){
+        margin: 0px 20px 20px;
+    }
+    .planos-flex div:nth-child(2){
+        margin: 0px 20px 20px;
+    }
+    .planos-flex div:nth-child(3){
+        margin: 0px 20px 40px;
+    }
+    #planos h2{
+        margin: 20px 20px 0px;
+    }
+    .planos-flex{
+        justify-content: center;;
+    }
+}
